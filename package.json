@@ -9,7 +9,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "i18n:init": "ngx-translate-extract --input ./src --output ./src/assets/sample/template.json --key-as-default-value --replace --format json",
-    "i18n:extract": "ngx-translate-extract --input ./src --output ./src/assets/sample/{en,da,de,fi,nb,nl,sv}.json --clean --format json"
+    "i18n:extract": "ngx-translate-extract --input ./src --output ./src/assets/sample/{en,da,de,fi,nb,nl,sv}.json --clean --format json",
+    "translate": "npx ngx-translate-all --format ngx-translate --in ru --out en,fr --outPath src/assets/sample"
   },
   "private": true,
   "dependencies": {
