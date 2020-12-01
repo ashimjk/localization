@@ -6,6 +6,8 @@ import {templateSourceUrl} from '@angular/compiler';
   selector: 'app-root',
   template: `
     <div>
+      <h2>This is just a sample</h2>
+      <p>Testing area</p>
       <h2>{{ 'HOME.TITLE' | translate }}</h2>
       <label>
         {{ 'HOME.SELECT' | translate }}
